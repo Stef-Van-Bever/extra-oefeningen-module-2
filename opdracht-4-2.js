@@ -1,7 +1,9 @@
 function berekenTotaal() {
   let totaal = 0;
-  while (totaal < 10) {
-    totaal++;
+  let i = 0;
+  while (i < 10) {
+    totaal += i;
+    i++;
   }
   return totaal;
 }
